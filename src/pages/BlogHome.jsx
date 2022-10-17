@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 const BlogHome = () => {
   return (
     <>
+    {/* Blog Home page */}
       <div className="bg-white pb-64">
         <div className="w-[70%] mx-auto">
           <Navbar />
