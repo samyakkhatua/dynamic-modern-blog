@@ -290,7 +290,6 @@ const LatestPosts = () => {
           <h2 className="mt-10 text-[20px] font-bold float-left">Categories</h2>
 
           <div className="">
-            
             <button className="px-3 mt-4 mr-2 py-1.5 bg-[#ccf0fa] rounded-md text-[12px]">
               Marketing
             </button>
@@ -316,13 +315,128 @@ const LatestPosts = () => {
               Java
             </button>
             <button className="px-3 mt-2 mr-2 py-1.5 bg-[#ccf0fa] rounded-md text-[12px]">
-              Javasript
+              JS
             </button>
-            <button className="px-3 mt-2 mr-2 py-1.5 rounded-md text-[12px] bg-[#ccf0fa86]">
+            <button className="px-3 mt-2 mr-2 py-1.5 rounded-md text-[12px] border">
               View all..
             </button>
           </div>
+
+          {/* Popular posts */}
+          <h2 className="mt-10 text-[20px] font-bold float-left">
+            Popular Posts
+          </h2>
+          <div className="">
+            <div className="flex mt-4 ">
+              <div className="">
+                <img
+                  src="/src/assets/pexels-rfstudio-3825584.jpg"
+                  alt=""
+                  className="w-[100px] h-[70px] rounded-md"
+                />
+              </div>
+              <div className="">
+                <p className="text-[10px] py-1 pl-2 ">CATEGORY</p>
+
+                <p className="text-[12px] pl-2 w-full font-bold leading-4 ">
+                  Title Lorem ipsum dolor sit amet consectetur...
+                </p>
+              </div>
+            </div>
+
+            <div className="flex mt-4 ">
+              <div className="">
+                <img
+                  src="/src/assets/pexels-rodolfo-clix-1036936.jpg"
+                  alt=""
+                  className="w-[100px] h-[70px] rounded-md"
+                />
+              </div>
+              <div className="">
+                <p className="text-[10px] py-1 pl-2 ">CATEGORY</p>
+
+                <p className="text-[12px] pl-2 w-full font-bold leading-4 ">
+                  Title Lorem ipsum dolor sit amet consectetur...
+                </p>
+              </div>
+            </div>
+
+            <div className="flex mt-4 ">
+              <div className="">
+                <img
+                  src="/src/assets/pexels-junior-teixeira-2047905.jpg"
+                  alt=""
+                  className="w-[100px] h-[70px] rounded-md"
+                />
+              </div>
+              <div className="">
+                <p className="text-[10px] py-1 pl-2 ">CATEGORY</p>
+
+                <p className="text-[12px] pl-2 w-full font-bold leading-4 ">
+                  Title Lorem ipsum dolor sit amet consectetur...
+                </p>
+              </div>
+            </div>
+
+            <div className="flex mt-4 ">
+              <div className="">
+                <img
+                  src="/src/assets/pexels-luis-gomes-546819.jpg"
+                  alt=""
+                  className="w-[100px] h-[70px] rounded-md"
+                />
+              </div>
+              <div className="">
+                <p className="text-[10px] py-1 pl-2 ">CATEGORY</p>
+
+                <p className="text-[12px] pl-2 w-full font-bold leading-4 ">
+                  Title Lorem ipsum dolor sit amet consectetur...
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      {/* pagination */}
+      <div className="flex justify-between w-[70%] mt-10 font-bold text-[12px] items-center">
+        <button className="text-[#99A0A4]">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-10 h-10 "
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+            />
+          </svg>
+          Previous Page
+        </button>
+
+        <p className="tracking-widest">1 2 3 4 5 ...21</p>
+
+        <button className="text-black">
+          Next Page
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
       </div>
     </>
   );
