@@ -2,13 +2,13 @@ import React from "react";
 import BlogStats from "../components/BlogHome/BlogStats";
 import FeaturedPosts from "../components/BlogHome/FeaturedPosts";
 import LatestPosts from "../components/BlogHome/LatestPosts";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const BlogHome = () => {
   return (
     <>
-    {/* Blog Home page */}
-      <div className="bg-white pb-64">
+      <div className="bg-white">
         <div className="w-[70%] mx-auto">
           <Navbar />
 
@@ -28,7 +28,9 @@ const BlogHome = () => {
           <FeaturedPosts/>
           <LatestPosts/>
         </div>
+      <Footer />
       </div>
+
     </>
   );
 };
