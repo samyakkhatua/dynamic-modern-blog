@@ -47,7 +47,6 @@ const Footer = () => {
 
           {/* social icons */}
           <div>
-
             <p className="text-[#94999b] text-[12px] bold mb-2">
               Follow me:</p>
             <div className="flex gap-4">

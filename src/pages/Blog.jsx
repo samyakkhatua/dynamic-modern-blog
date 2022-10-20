@@ -31,10 +31,10 @@ const Blog = () => {
 
   return (
     <>
-      <h1 className="text-4xl mt-5 text-center">Blog Home page</h1>
+      <h1 className="font-inter text-4xl mt-5 text-center">Blog Home page</h1>
 
       <Link to="/">
-        <button className="bg-bermuda text-black w-[30%] mx-[5%] rounded-2xl py-2 mt-7">
+        <button className="font-inter bg-bermuda text-black w-[30%] mx-[5%] rounded-2xl py-2 mt-7">
           Home page
         </button>
       </Link>
