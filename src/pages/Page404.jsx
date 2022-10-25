@@ -3,7 +3,7 @@ import React from "react";
 const Page404 = () => {
   return (
     <>
-      <div>404</div>
+      <div>There is no page like this! - 404 Error</div>
     </>
   );
 };
