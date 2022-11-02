@@ -15,7 +15,7 @@ const BlogPage = () => {
       <div className="">
         <Cover />
         <BlogMain /> <br />
-        <NewsletterOptIn />
+        {/* <NewsletterOptIn /> */}
         <ScrollToTop />
       </div>
     </>
