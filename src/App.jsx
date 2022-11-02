@@ -1,6 +1,6 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
-import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import { Route, Routes } from "react-router-dom";
+// import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 import Blog from "./pages/Blog";
 import BlogPage from "./pages/BlogPage";
@@ -9,7 +9,7 @@ import Page404 from "./pages/Page404";
 import FramerMotion from "./pages/FramerMotion";
 import BlogHome from "./pages/BlogHome";
 
-import styles, { layout } from "./style";
+// import styles, { layout } from "./style";
 
 const App = () => {
   return (
