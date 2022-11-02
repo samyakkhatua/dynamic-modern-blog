@@ -12,6 +12,11 @@ const HomePage = () => {
           Blog
         </button>
       </Link>
+      <Link to="/blog-home">
+        <button className="bg-bermuda text-black w-[90%] mx-[5%] rounded-2xl py-2 mt-7">
+          Blog home
+        </button>
+      </Link>
     </>
   );
 };
