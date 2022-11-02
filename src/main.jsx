@@ -12,7 +12,7 @@ import {
 
 // apollo client
 const client = new ApolloClient({
-  uri: "http://localhost:1338/graphql",
+  uri: "https://modernblog.up.railway.app/graphql",
   cache: new InMemoryCache(),
 });
 
