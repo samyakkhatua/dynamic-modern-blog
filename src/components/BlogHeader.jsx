@@ -51,7 +51,7 @@ const BlogHeader = () => {
   // );
   const { loading, error, data } = useQuery(BLOG, {
     variables: { id: id },
-  });
+  }); 
 
   if (loading) return <h3> Loading... </h3>;
   if (error) return <p>Error... </p>;

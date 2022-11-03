@@ -8,7 +8,7 @@ const BlogMain = () => {
     <>
       <div className="-mt-20 px-6">
         <div className="rounded-3xl bg-white p-7 sm:ml-5 sm:w-[70%]">
-          <BlogHeader />
+          {/* <BlogHeader /> */}
           <PostContent />
         </div>
       </div>
