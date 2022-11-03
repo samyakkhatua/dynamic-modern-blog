@@ -46,9 +46,13 @@ const BLOG = gql`
 
 const BlogHeader = () => {
   const { id } = useParams();
+
+  //using REST api
   // const { loading, error, data } = useFetch(
+
   //   `http://localhost:1337/api/blogs/` + id
   // );
+  
   const { loading, error, data } = useQuery(BLOG, {
     variables: { id: id },
   }); 
